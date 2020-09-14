@@ -1,5 +1,5 @@
 <?php
-define("Value_of_Pi",3.14); //default false
+define("Value_of_Pi",3.14,true); //default false
 define("Value_of_Gravity",9.8,true);
 echo "PI VALUE : " . Value_of_Pi;
 echo "<br/>G VALUE : " . Value_of_Gravity;
@@ -9,6 +9,7 @@ define("Value_of_Pi",1000);   //changing the value of constant
 echo "PI VALUE: " . Value_of_Pi;
 echo "<hr>";
 echo "Gravity VALUE : " . VALUE_OF_GRAVITY;
-
+echo "<br/>";
+echo "Now the PI value is : ".Value_of_Pi;
 
 ?>

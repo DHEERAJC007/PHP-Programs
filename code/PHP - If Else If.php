@@ -1,6 +1,6 @@
 
 <?php 
-$Weather="SUN";
+$Weather="Sunny";
 
 if($Weather=="Sunny"){
     echo "Weather is pleasent<br>";

@@ -1,22 +1,22 @@
 <?php 
-$Weather="Cloudyblurr"; //Rainy
+$Weather="Cloudy"; //Rainy
 
 switch($Weather)
 {
     case "Sunny":
     echo "Weather is quite pleasent outside";
-    //break;
+    break;
 
     case "Rainy":
     echo "Its Raining outside <br>";
-    //break;
+    break;
 
     case "Cloudy":
     echo "It is expected to Rain <br>";
-    //break;
+    break;
 
     default:
     echo "Weather Can not be forecast <br>";
-  //  break;
+    break;
 }
 ?> 

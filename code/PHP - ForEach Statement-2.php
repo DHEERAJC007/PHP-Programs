@@ -1,8 +1,8 @@
 <?php
 $colors = array("red", "green", "blue", "yellow");
 
-    foreach ($colors as $value)
+    foreach ($colors as $color)
     {
-        echo "$value <br>";
+        echo "$color <br>";
     }
 ?> 

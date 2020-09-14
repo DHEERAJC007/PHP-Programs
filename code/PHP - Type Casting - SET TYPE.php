@@ -1,6 +1,7 @@
 <?php
 $pi = 3.14;
-
+echo gettype($pi);
+echo "<br/>";
 echo gettype($pi);
 echo "<br>";
 

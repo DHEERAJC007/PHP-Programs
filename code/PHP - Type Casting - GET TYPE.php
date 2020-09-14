@@ -1,27 +1,27 @@
 <?php
 $a = 3; 
 echo gettype($a);
-echo "\n";
+echo "<br/>";
 
 $b = 3.2;  		
 echo gettype($b);
-echo "\n";
+echo "<br/>";
 
 $c = "Hello";  	
 echo gettype($c);
-echo "\n";
+echo "<br/>";
 
 $d = array(); 	
 echo gettype($d);
-echo "\n";
+echo "<br/>";
 
 $e = array("red", "green", "blue");
 echo gettype($e);
-echo "\n";
+echo "<br/>";
 
 $f = NULL;		
 echo gettype($f);
-echo "\n";
+echo "<br/>";
 
 $g = false;		
 echo gettype($g);

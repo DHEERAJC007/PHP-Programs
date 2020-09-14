@@ -1,10 +1,11 @@
 
 <?php
-$Restricted_Area='Public'; //Media
+$Restricted_Area='def'; //Media
 
 switch($Restricted_Area)
 {
 	case 'Guard':
+	case 'Public':
 	echo "Permission Granted";
     break;
     

@@ -1,5 +1,5 @@
 <?php
-$Bought_Product=false;
+$Bought_Product=true;
 if($Bought_Product)
 {
 	echo "<h1>Thank You</h1>";
